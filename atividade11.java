@@ -29,5 +29,11 @@ public class atividade11 {
         } else {
             imposto = salarioBruto * 0.10;
         }
+        salarioLiquido = (salarioBruto - imposto) + bonus;
+        System.out.println("Salario Bruto: " + salarioBruto);
+        System.out.println("Imposto: " + imposto);
+        System.out.println("Bonus: " + bonus);
+        System.out.println("Salário Liquido: " + salarioLiquido);
+
     }
 }
